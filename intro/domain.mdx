@@ -1,0 +1,29 @@
+---
+title: 'Koppla till egen domän'
+description: 'Learn how to preview changes locally'
+---
+
+<Info>
+  **Prerequisite** Gör detta som ett sista steg. Du måste först ha skapat en butik och lagt till produkter.
+</Info>
+
+# Kan jag koppla på egen domän i butikens kassa?
+
+I Quickbutik har du möjlighet för att koppla till er befintliga egna domän även i butikens kassa.
+
+Det betyder att istället för att kunder checkar ut på adressen `https://checkout.quickbutik.com` kommer man istället att kunna checka ut på t.ex `https://checkout.minbutik.se`. Detta är till fördel för dig som önskar att köra helt och hållet på er egna domän utan att quickbutik.com syns i kundens köpflöde.
+
+## Så här aktiverar du egen domän i butikens kassa:
+
+1. Logga in till din kontrollpanel hos din domänleverantör
+2. Navigera till sektionen ”DNS”/DNS-inställningar eller liknande.
+3. Skapa en ny rad där ni anger `checkout` och väljer typ `CNAME` till följande domän/data: `custom.quickbutik.com`
+4. Spara och klart.
+
+Det tar nu upp till några timmar innan ändringarna helt har verkställts. Skulle det vara så att du fastnade vid punkt 3 rekommenderas det att du söker efter hjälp i domänleverantörens hjälpcenter eller tar kontakt med deras support för hjälp med detta.
+
+## Du har nu ett sista steg kvar för att koppla domänen till kassan:
+
+1. Logga in på din kontrollpanel hos Quickbutik.
+2. Navigera till Inställningar > Domän.
+3. Vid Domän för kassan klickar ni `Aktivera`.
